@@ -29,7 +29,7 @@ body {
   align-items: center;
   padding: 32px 24px 16px;
   border-radius: 16px 16px 0 0;
-  background: radial-gradient(circle at top left, #1d4ed8 0, #020617 45%, #020617 100%);
+  background: radial-gradient(circle at top left, #000000b3 0, #020617 45%, #020617 100%);
 }
 
 .photo-wrapper {
@@ -175,11 +175,12 @@ main {
 /* Educación y Certificaciones */
 .edu-item h4 {
   font-size: 1rem;
+  color: #ffffff; 
 }
 
 .edu-place {
   font-size: 0.9rem;
-  color: #9ca3af;
+  color: #656a71;
   margin-bottom: 8px;
 }
 
@@ -191,7 +192,9 @@ main {
 }
 
 .cert-list li {
-  margin-bottom: 4px;
+  content: "";
+  color: #fdfdfd;   
+  margin-right: 8px;
 }
 
 /* Listas simples */
@@ -224,4 +227,3 @@ main {
     padding: 16px;
   }
 }
-
