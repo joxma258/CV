@@ -233,6 +233,22 @@ main {
   margin-right: 8px;
 }
 
+.ieee-badge {
+  display: inline-block;
+  margin-left: 8px;
+  padding: 2px 8px;
+
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+
+  color: #0ea5e9;              /* azul IEEE / tech */
+  border: 1px solid #0ea5e9;
+  border-radius: 999px;
+
+  vertical-align: middle;
+}
+
 /* Listas simples */
 .section ul {
   margin-left: 16px;
